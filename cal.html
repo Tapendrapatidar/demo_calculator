@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="./calc.css">
+</head>
+<body>
+	<div class="container">
+		<div class="inputDiv">
+			<input type="text" name="" 
+			id="input" class="inputField" maxlength="10" placeholder="0" disabled>
+		</div>
+		<div class="buttonDiv">
+			<div class="firstRow">
+				<button onclick="show('1')" value="1">1</button>
+				<button onclick="show('2')" value="2">2</button>
+				<button onclick="show('3')" value="3">3</button>
+				<button onclick="cal('+')" value="+">+</button>
+			</div>
+
+			<div class="secondRow">
+				<button onclick="show('4')" value="4">4</button>
+				<button onclick="show('5')" value="5">5</button>
+				<button onclick="show('6')" value="6">6</button>
+				<button onclick="cal('-')" value="-">-</button>
+			</div>
+			<div class="thirdRow">
+				<button onclick="show('7')" value="7">7</button>
+				<button onclick="show('8')" value="8">8</button>
+				<button onclick="show('9')" value="9">9</button>
+				<button onclick="cal('*')" value="*">*</button>
+			</div>
+			<div class="fourthRow">
+				<button onclick="cal('.')" value=".">.</button>
+				<button onclick="show('0')" value="0">0</button>
+				<button onclick="clearInput()" id="btn" value="C">C</button>
+				<button onclick="cal('/')" value="/">/</button>
+			</div>
+			<div class="lastRow">
+				<button onclick="equalTo('=')" value="=">=</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="./cal.js"></script>
+
+</body>
+</html>

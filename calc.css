@@ -1,0 +1,59 @@
+.container{
+	width: 150px;
+	height: 200px;
+	text-align: center;
+	border: 1px solid black;
+	margin: 10%;
+	border-radius: 2px;
+	background: lightblue;
+}
+.inputField{
+	margin-top: 5px;
+	width: 85%;
+	height: 25px;
+	border: none;
+	border-radius: 2px;
+}
+.buttonDiv{
+	width: 100%;
+	height: 200px;
+}
+.firstRow{
+	padding: 0%;
+	width: 99%;
+	height: 30px;
+}
+.firstRow button{
+	width: 30px;
+	height: 30px;
+}
+.secondRow button{
+	width: 30px;
+	height: 30px;
+}
+.thirdRow button{
+	width: 30px;
+	height: 30px;
+}
+.fourthRow button{
+	width: 30px;
+	height: 30px;
+}
+.lastRow button{
+	width: 90%;
+	height: 30px;
+}
+div{
+	padding: 1px;
+}
+body {
+	align-items: center;
+}
+
+
+
+
+
+
+
+
